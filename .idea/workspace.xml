@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d919ed4a-668c-4b29-acb6-d4769831c667" name="Default Changelist" comment="" />
+    <list default="true" id="d919ed4a-668c-4b29-acb6-d4769831c667" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yiMinShangDian/entity/recordEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yiMinShangDian/imple/impRecord/Record.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yiMinShangDian/jFrame/SelectFunction/SelectFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yiMinShangDian/jFrame/record/Record.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yiMinShangDian/serve/Record/record.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yiMinShangDian/utils/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pic/pic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tezt1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yiMinShangDian/imple/impCheckedLoading/impChexkedLoading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yiMinShangDian/imple/impCheckedLoading/impChexkedLoading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yiMinShangDian/jFrame/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yiMinShangDian/jFrame/login/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yiMinShangDian/pic/pic1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pic/pic1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yiMinShangDian/entity/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yiMinShangDian/entity/login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yiMinShangDian/imple/impCheckedLoading/impChexkedLoading.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yiMinShangDian/imple/impCheckedLoading/impChexkedLoading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yiMinShangDian/jFrame/login/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yiMinShangDian/jFrame/login/Login$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yiMinShangDian/jFrame/login/Login$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yiMinShangDian/jFrame/login/Login$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yiMinShangDian/jFrame/login/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yiMinShangDian/jFrame/login/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yiMinShangDian/serve/login/CheckedLoading.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yiMinShangDian/serve/login/CheckedLoading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yiMinShangDian/utils/JdbcUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yiMinShangDian/utils/JdbcUtil.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +51,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -39,14 +64,17 @@
     </option>
   </component>
   <component name="ProjectId" id="1npMNEV64MGV5aXbmQLjuE4aPna" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../student-manager" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -54,15 +82,19 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\YiMinShangDian\src\main\java\yiMinShangDian\pic" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="yiMinShangDian.utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\YiMinShangDian\src\main\resources" />
       <recent name="C:\Users\Administrator\Desktop\YiMinShangDian\src\main\java\yiMinShangDian" />
       <recent name="C:\Users\Administrator\Desktop\YiMinShangDian\src\main\resources\pic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Login">
+  <component name="RunManager" selected="Application.Record">
     <configuration name="JdbcUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="yiMinShangDian.utils.JdbcUtil" />
       <module name="YiMinShangDian" />
@@ -89,9 +121,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Record" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yiMinShangDian.jFrame.record.Record" />
+      <module name="YiMinShangDian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yiMinShangDian.jFrame.record.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yiMinShangDian.jFrame.SelectFunction.SelectFunction" />
+      <module name="YiMinShangDian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yiMinShangDian.jFrame.SelectFunction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Time" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yiMinShangDian.utils.Time" />
+      <module name="YiMinShangDian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yiMinShangDian.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Record" />
+        <item itemvalue="Application.Time" />
         <item itemvalue="Application.Login" />
+        <item itemvalue="Application.SelectFunction" />
         <item itemvalue="Application.JdbcUtil" />
       </list>
     </recent_temporary>
@@ -111,7 +185,9 @@
       <updated>1612082536999</updated>
       <workItem from="1612082546857" duration="1239000" />
       <workItem from="1612083901169" duration="3721000" />
-      <workItem from="1612090288304" duration="10420000" />
+      <workItem from="1612090288304" duration="13054000" />
+      <workItem from="1612149590169" duration="17703000" />
+      <workItem from="1612169774229" duration="610000" />
     </task>
     <servers />
   </component>
@@ -123,33 +199,41 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1612094290213" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1612100747350">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1612160090919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612100747350" />
-    <state width="1877" height="253" key="GridCell.Tab.0.bottom" timestamp="1612104087795">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612160090919" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1612155476083">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="253" key="GridCell.Tab.0.bottom/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612104087795" />
+    <state x="740" y="275" key="FileChooserDialogImpl/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612155476083" />
+    <state width="1877" height="265" key="GridCell.Tab.0.bottom" timestamp="1612169490018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="265" key="GridCell.Tab.0.bottom/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612169490018" />
     <state width="1323" height="56" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612095103801" />
-    <state width="1877" height="253" key="GridCell.Tab.0.center" timestamp="1612104087795">
+    <state width="1877" height="265" key="GridCell.Tab.0.center" timestamp="1612169490017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="253" key="GridCell.Tab.0.center/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612104087795" />
+    <state width="1877" height="265" key="GridCell.Tab.0.center/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612169490017" />
     <state width="1323" height="56" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612095103801" />
-    <state width="1877" height="253" key="GridCell.Tab.0.left" timestamp="1612104087795">
+    <state width="1877" height="265" key="GridCell.Tab.0.left" timestamp="1612169490016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="253" key="GridCell.Tab.0.left/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612104087795" />
+    <state width="1877" height="265" key="GridCell.Tab.0.left/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612169490016" />
     <state width="1323" height="56" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612095103800" />
-    <state width="1877" height="253" key="GridCell.Tab.0.right" timestamp="1612104087795">
+    <state width="1877" height="265" key="GridCell.Tab.0.right" timestamp="1612169490017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="253" key="GridCell.Tab.0.right/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612104087795" />
+    <state width="1877" height="265" key="GridCell.Tab.0.right/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612169490017" />
     <state width="1323" height="56" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612095103801" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1612083450624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612083450624" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612162156044">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612162156044" />
   </component>
 </project>

@@ -3,12 +3,13 @@ package yiMinShangDian.jFrame.login;
 
 import yiMinShangDian.entity.login;
 import yiMinShangDian.imple.impCheckedLoading.impChexkedLoading;
-import yiMinShangDian.serve.login.CheckedLoading;
+import yiMinShangDian.jFrame.SelectFunction.SelectFunction;
+
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
+import java.net.URL;
 
 /**
  * @ClassName login
@@ -28,6 +29,8 @@ public class Login extends JFrame {
     JButton reset   = new JButton("重置");
     JPanel right = new JPanel();
     JLabel jLabelRight = new JLabel();
+    SystemTray systemTray;
+    TrayIcon trayIcon;
 
     login use ;
     public Login(){
@@ -84,6 +87,7 @@ public class Login extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
         loading.addActionListener(new ActionListener() {
+            @Override
             public void actionPerformed(ActionEvent e) {
                 //检测登录的方法
                 use = new login();
@@ -96,18 +100,44 @@ public class Login extends JFrame {
                     JOptionPane.showMessageDialog(jPanel,"请输入用户密码！");
                 }else if (new impChexkedLoading().checkedLoading(use)){
                     JOptionPane.showMessageDialog(jPanel,"登录成功！");
+                    Login.this.dispose();
+                    new SelectFunction();
+                }else{
+                    JOptionPane.showMessageDialog(jPanel,"账户密码错误");
                 }
 
             }
         });
         reset.addActionListener(new ActionListener() {
+            @Override
             public void actionPerformed(ActionEvent e) {
                 //清除数据
                 password.setText("");
                 UserName.setText("");
             }
         });
-
+        //        添加系统托盘 tray
+        if (SystemTray.isSupported()){
+            systemTray = SystemTray.getSystemTray();
+            // 系统托盘图标的大小是16 * 16 的
+            URL resource = Login.class.getClassLoader().getResource("pic/pic3.jpg");
+            trayIcon = new TrayIcon(new ImageIcon(resource).getImage());
+            try {
+                systemTray.add(trayIcon);
+            } catch (AWTException e) {
+                e.printStackTrace();
+            }
+            trayIcon.addMouseListener(new MouseAdapter() {
+                @Override
+                public void mouseClicked(MouseEvent e) {
+                    int clickCount = e.getClickCount();
+                    if (clickCount == 1){
+                        Login.this.setExtendedState(JFrame.NORMAL);
+                    }
+                    Login.this.setVisible(true);
+                }
+            });
+        }
     }
 
     public static void main(String[] args) {

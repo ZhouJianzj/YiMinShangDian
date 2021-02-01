@@ -30,7 +30,6 @@ public class impChexkedLoading implements CheckedLoading {
                  String password = resultSet.getString("password");
                  if (userName.equals(login.getUserName())){
                      if (password.equals(login.getPassword())){
-
                          return true;
                      }
                  }
